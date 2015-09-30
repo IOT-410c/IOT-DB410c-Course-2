@@ -51,7 +51,7 @@ public class JSON {
             computation.put(context.getString(R.string.cpu_usage),
                     info.getCpuUsage() + "%");
 
-          computation.put(context.getString(R.string.mem_usage),
+            computation.put(context.getString(R.string.mem_usage),
                   info.getMemoryUsage() + "%");
 
             // Connection
