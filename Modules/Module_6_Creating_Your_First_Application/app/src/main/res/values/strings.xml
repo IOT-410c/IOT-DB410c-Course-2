@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NetworkTests</string>
+
+    <!-- Button Strings -->
+    <string name="bluetooth_test">Bluetooth Test</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="wifi_test">Wifi Test</string>
+    <string name="toggle_wifi">Toggle Wifi</string>
+    <string name="connect_wifi">Connect to Wifi Network</string>
+    <string name="location_test">Location Test</string>
+    <string name="location">Location</string>
+    <string name="refresh_status">Refresh Statuses</string>
+
+    <!-- Status Strings -->
+    <string name="passed">Passed</string>
+    <string name="try_again">Please try again</string>
+    <string name="bluetooth_enabled">Your Bluetooth is enabled</string>
+    <string name="wifi_enabled">Your wifi is enabled</string>
+    <string name="wifi_already_enabled">Your wifi is already enabled</string>
+    <string name="wifi_null">Your wifi is toggled on, but you are not connected
+        to a network.</string>
+    <string name="wifi_toggled_off">Your wifi is toggled off</string>
+    <string name="wifi_available">Your wifi is toggled on. Your are connected
+        to: %1$s</string>
+    <string name="location_enabled">Your Location/ GPS is enabled</string>
+    <string name="location_available">Your coordinate is (%1$s, %2$s)</string>
+    <string name="location_null">Your Location/ GPS Service is enabled, but is
+        unable to retrieve your coordinates</string>
+
+</resources>

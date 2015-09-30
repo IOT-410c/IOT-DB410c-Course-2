@@ -1,0 +1,83 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NetworkTestsActivity">
+
+    <!-- GPS Button + TextView -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:text="@string/location"
+        android:onClick="testLocation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".12"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/LOCATION_STATUS"
+        android:text="@string/location_test"/>
+
+    <!-- Wi-Fi Buttons + TextView -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:text="@string/toggle_wifi"
+        android:onClick="toggleWifi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:text="@string/connect_wifi"
+        android:onClick="connectWifiNetwork"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".12"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/WIFI_STATUS"
+        android:text="@string/wifi_test"/>
+
+    <!-- Bluetooth Button + TextView -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:text="@string/bluetooth"
+        android:onClick="testBluetooth"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".12"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/BLUETOOTH_STATUS"
+        android:text="@string/bluetooth_test"/>
+
+    <!-- Refresh Status Button-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:layout_gravity="center"
+        android:text="@string/refresh_status"
+        android:onClick="refreshStatus"/>
+
+</LinearLayout>
