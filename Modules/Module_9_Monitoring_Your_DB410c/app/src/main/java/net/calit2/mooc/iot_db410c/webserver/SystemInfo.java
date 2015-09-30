@@ -157,7 +157,7 @@ public class SystemInfo {
     }
 
     /**
-     * Name:        getUSBStatus
+     * Name:        getUSBList
      * Description: Determines the name of the USB devices currently attached
      *
      * @return      String array of the names of the USB Devices attached
